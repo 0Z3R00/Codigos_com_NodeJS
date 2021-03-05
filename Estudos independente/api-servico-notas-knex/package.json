@@ -1,0 +1,20 @@
+{
+  "name": "api-servico-notas-knex",
+  "version": "1.0.0",
+  "description": "Api de notas, utilizando o KNEX.JS",
+  "main": "index.js",
+  "author": "Moura Z3R0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "debug": "nodemon --inspect ./src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.16",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7"
+  }
+}
